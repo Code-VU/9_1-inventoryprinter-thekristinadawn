@@ -6,9 +6,10 @@ def displayInventory(inventory):
     
     for key, value in stuff.items(): #for loop to go through each key/value
         print(value, key) #print in reverse order
-    
+    print('Total number of items:',sum(stuff.values()))
 
-displayInventory(stuff)
-print('Total number of items:',sum(stuff.values()))
+#displayInventory(stuff)
+
+
 
 
